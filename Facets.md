@@ -46,51 +46,51 @@ Types of Transactions
 -----------------------
 
 Cashless transaction
-	Raise an authorization request to the Payor by Provider
-	Once approved with proof
-	Provider will raise a claim for all the covered services. Covered services will be paid by the IC
-	Non covered services/expenses need to be paid by the member.
+	- Raise an authorization request to the Payor by Provider
+	- Once approved with proof
+	- Provider will raise a claim for all the covered services. Covered services will be paid by the IC
+	- Non covered services/expenses need to be paid by the member.
 
 CLAIM -- Process of raising the expenses incurred for medical services.
 
 Cash transaction 
-	Member will get the treatment, pays full cost
-	After discharge, raise a claim request
-	If eligible, IC pays/reimburse to the member
+	- Member will get the treatment, pays full cost
+	- After discharge, raise a claim request
+	- If eligible, IC pays/reimburse to the member
 
-Inpatient -- Admitted in hospital with min of 24 hrs
+- Inpatient -- Admitted in hospital with min of 24 hrs
 Inpatient/Hospital/Facility/Institutional Claims
 
-Outpatient -- Treatment with member returning back home on the same day < 24 hrs
+- Outpatient -- Treatment with member returning back home on the same day < 24 hrs
 Outpatient/Medical/Professional Claims
 
 Eligibility (w.r.t Claims)
 ---------------------------
-Member is active
-Member is enrolled in active policy
-Whether actual treatment was given or not
-Whether the treatment is covered or not
-Whether member already met Sum Insured
-Duplicate Claim or not
+- Member is active
+- Member is enrolled in active policy
+- Whether actual treatment was given or not
+- Whether the treatment is covered or not
+- Whether member already met Sum Insured
+- Duplicate Claim or not
 
-Pre-existing Condition
+### Pre-existing Condition
 -----------------------
 
-A condition for which the individual received medical care prior to the effective date of coverage.
+- A condition for which the individual received medical care prior to the effective date of coverage.
 
-Before member joins the policy, if already they have an health issue and taking treatment, then for that condition treatment cost will not be covered.
+- Before member joins the policy, if already they have an health issue and taking treatment, then for that condition treatment cost will not be covered.
 
-Policy P1 -- Covers heart disease (Pre-existing excluded)
+### Policy P1 -- Covers heart disease (Pre-existing excluded)
 
-M1 - Joins the policy P1 on 1/1/2022
+- M1 - Joins the policy P1 on 1/1/2022
 on 4/1/2022, for the first time he got some heart problem, heart problem will be covered. 
 
-M2 - Joins the Policy P1 on 1/1/2022, already has an heart problem and is under treatment from 2020
+- M2 - Joins the Policy P1 on 1/1/2022, already has an heart problem and is under treatment from 2020
 On 5/1/2022, member M2 has some heart issues, heart problem will not be covered.
 
-Network -- 	  Collection of Providers
-Network Group --  Collection of Networks
-Network Set --    Collection of Network Groups/Superset of all networks
+- Network -- 	  Collection of Providers
+- Network Group --  Collection of Networks
+- Network Set --    Collection of Network Groups/Superset of all networks
 
 CTS IND				-- Network Set
 	NRNG
